@@ -5,7 +5,7 @@ def write(q):
     for value in ['A','B','C','D','E','F','G','H']:
         print('put %s to queue...'%value)
         q.put(value)
-        # time.sleep(random.random())
+        time.sleep(random.random())
 
 def read(q):
     while True:
